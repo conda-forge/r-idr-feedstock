@@ -17,9 +17,8 @@ of Applied Statistics, Vol. 5, No. 3, 1752-1779, by Li, Brown, Huang, and Bickel
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-idr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-idr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-idr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-idr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-idr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-idr-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-idr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-idr-feedstock)
 
 Current release info
 ====================
