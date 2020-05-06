@@ -35,7 +35,8 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=idr
-  license: GPL (>= 2.0)
+  license: GPL-2.0-or-later
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
   summary: |
     This is a package for estimating the copula mixture model and plotting correspondence
     curves in "Measuring reproducibility of high-throughput experiments" (2011), Annals
