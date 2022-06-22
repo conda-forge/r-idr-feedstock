@@ -1,4 +1,4 @@
-{% set version = '1.2' %}
+{% set version = "1.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/idr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/idr/idr_{{ version }}.tar.gz
-  sha256: 8bbfdf82c8c2b5c73eb079127e198b6cb65c437bb36729f502c7bcd6037fdb16
+  sha256: 6b3910dc48495439cd01828f8999823864a6712f73560ee3e6c903065c67d1e4
 
 build:
-  merge_build_host: True  # [win]
-  number: 1004
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,12 +37,10 @@ test:
 about:
   home: https://CRAN.R-project.org/package=idr
   license: GPL-2.0-or-later
-  summary: This is a package for estimating the copula mixture model and plotting correspondence
-    curves in "Measuring reproducibility of high-throughput experiments" (2011), Annals
-    of Applied Statistics, Vol. 5, No. 3, 1752-1779, by Li, Brown, Huang, and Bickel
+  summary: This is a package for estimating the copula mixture model and plotting correspondence curves in "Measuring reproducibility of high-throughput experiments" (2011), Annals of Applied Statistics, Vol. 5, No. 3, 1752-1779, by Li, Brown, Huang, and Bickel
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
