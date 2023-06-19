@@ -1,11 +1,11 @@
-About r-idr
-===========
+About r-idr-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-idr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=idr
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-idr-feedstock/blob/main/LICENSE.txt)
 
 Summary: This is a package for estimating the copula mixture model and plotting correspondence curves in "Measuring reproducibility of high-throughput experiments" (2011), Annals of Applied Statistics, Vol. 5, No. 3, 1752-1779, by Li, Brown, Huang, and Bickel
 
